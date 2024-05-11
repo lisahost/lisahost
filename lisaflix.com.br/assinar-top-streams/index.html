@@ -24,7 +24,64 @@
 	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://lisaflix.com.br/assinar-top-streams/","url":"https://lisaflix.com.br/assinar-top-streams/","name":"Assinar Top Streams - Lisaflix","isPartOf":{"@id":"https://lisaflix.com.br/#website"},"primaryImageOfPage":{"@id":"https://lisaflix.com.br/assinar-top-streams/#primaryimage"},"image":{"@id":"https://lisaflix.com.br/assinar-top-streams/#primaryimage"},"thumbnailUrl":"https://lisaflix.com.br/wp-content/uploads/2024/02/Plano-Anual-FB-1024x553.png","datePublished":"2024-04-16T20:38:21+00:00","dateModified":"2024-04-25T17:58:22+00:00","breadcrumb":{"@id":"https://lisaflix.com.br/assinar-top-streams/#breadcrumb"},"inLanguage":"pt-BR","potentialAction":[{"@type":"ReadAction","target":["https://lisaflix.com.br/assinar-top-streams/"]}]},{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https://lisaflix.com.br/assinar-top-streams/#primaryimage","url":"https://i0.wp.com/lisaflix.com.br/wp-content/uploads/2024/02/Plano-Anual-FB.png?fit=2064%2C1114&ssl=1","contentUrl":"https://i0.wp.com/lisaflix.com.br/wp-content/uploads/2024/02/Plano-Anual-FB.png?fit=2064%2C1114&ssl=1","width":2064,"height":1114},{"@type":"BreadcrumbList","@id":"https://lisaflix.com.br/assinar-top-streams/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://lisaflix.com.br/"},{"@type":"ListItem","position":2,"name":"Assinar Top Streams"}]},{"@type":"WebSite","@id":"https://lisaflix.com.br/#website","url":"https://lisaflix.com.br/","name":"Lisaflix","description":"A Plataforma VIP mais quente do Brasil!","publisher":{"@id":"https://lisaflix.com.br/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://lisaflix.com.br/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"pt-BR"},{"@type":"Organization","@id":"https://lisaflix.com.br/#organization","name":"Lisaflix","url":"https://lisaflix.com.br/","logo":{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https://lisaflix.com.br/#/schema/logo/image/","url":"https://i0.wp.com/lisaflix.com.br/wp-content/uploads/2024/02/Logo_-_Lisaflix__6__-_Copia-removebg-preview.png?fit=895%2C279&ssl=1","contentUrl":"https://i0.wp.com/lisaflix.com.br/wp-content/uploads/2024/02/Logo_-_Lisaflix__6__-_Copia-removebg-preview.png?fit=895%2C279&ssl=1","width":895,"height":279,"caption":"Lisaflix"},"image":{"@id":"https://lisaflix.com.br/#/schema/logo/image/"}}]}</script>
 	<!-- / Yoast SEO plugin. -->
 
+<script type="text/javascript">
+			//<![CDATA[
+			var show_msg = '';
+			if (show_msg !== '0') {
+				var options = {view_src: "View Source is disabled!", inspect_elem: "Inspect Element is disabled!", right_click: "Right click is disabled!", copy_cut_paste_content: "Cut/Copy/Paste is disabled!", image_drop: "Image Drag-n-Drop is disabled!" }
+			} else {
+				var options = '';
+			}
 
+         	function nocontextmenu(e) { return false; }
+         	document.oncontextmenu = nocontextmenu;
+         	document.ondragstart = function() { return false;}
+
+			document.onmousedown = function (event) {
+				event = (event || window.event);
+				if (event.keyCode === 123) {
+					if (show_msg !== '0') {show_toast('inspect_elem');}
+					return false;
+				}
+			}
+			document.onkeydown = function (event) {
+				event = (event || window.event);
+				//alert(event.keyCode);   return false;
+				if (event.keyCode === 123 ||
+						event.ctrlKey && event.shiftKey && event.keyCode === 73 ||
+						event.ctrlKey && event.shiftKey && event.keyCode === 75) {
+					if (show_msg !== '0') {show_toast('inspect_elem');}
+					return false;
+				}
+				if (event.ctrlKey && event.keyCode === 85) {
+					if (show_msg !== '0') {show_toast('view_src');}
+					return false;
+				}
+			}
+			function addMultiEventListener(element, eventNames, listener) {
+				var events = eventNames.split(' ');
+				for (var i = 0, iLen = events.length; i < iLen; i++) {
+					element.addEventListener(events[i], function (e) {
+						e.preventDefault();
+						if (show_msg !== '0') {
+							show_toast(listener);
+						}
+					});
+				}
+			}
+			addMultiEventListener(document, 'contextmenu', 'right_click');
+			addMultiEventListener(document, 'cut copy paste print', 'copy_cut_paste_content');
+			addMultiEventListener(document, 'drag drop', 'image_drop');
+			function show_toast(text) {
+				var x = document.getElementById("amm_drcfw_toast_msg");
+				x.innerHTML = eval('options.' + text);
+				x.className = "show";
+				setTimeout(function () {
+					x.className = x.className.replace("show", "")
+				}, 3000);
+			}
+		//]]>
+		</script>
 <link rel='dns-prefetch' href='http://stats.wp.com/' />
 <link rel='dns-prefetch' href='http://i0.wp.com/' />
 <link rel="alternate" type="application/rss+xml" title="Feed para Lisaflix &raquo;" href="https://lisaflix.com.br/feed/" />
