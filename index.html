@@ -183,16 +183,35 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
                 display: inline-block;
             }
         </style>
-<style>
+
+	<style>
+  /* Estilos para telas grandes */
+  @media only screen and (min-width: 768px) {
+    /* Adicione estilos aqui que devem se aplicar a telas maiores que 768px */
+    /* Por exemplo: */
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+
+  /* Estilos para telas pequenas (como smartphones) */
+  @media only screen and (max-width: 767px) {
+    /* Adicione estilos aqui que devem se aplicar a telas menores ou iguais a 767px */
+    /* Por exemplo: */
+    .container {
+      width: 100%;
+      padding: 0 10px;
+    }
+  }
+</style>
+	<style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-        }
-
-        .container {
-            width: 50%;
-            margin: 0 auto;
+	background-color: black; /* Define o fundo preto para todo o corpo da página */
+    	color: white;
         }
 
         .content {
