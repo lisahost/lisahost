@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+lisaflix.com.br	TRUE	/	FALSE	1999999999	nfdbrandname	hostgator
+lisaflix.com.br	TRUE	/	FALSE	1999999999	last_page_visited	deleted
+lisaflix.com.br	TRUE	/	FALSE	1999999999	SameSite	Strict
+
